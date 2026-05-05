@@ -38,7 +38,9 @@ Raw Financial Article
 The classification step also includes two baseline models — Logistic Regression and Naive Bayes with TF-IDF features — for quantitative comparison against the transformer approach.
 
 ---
+## Pipeline Architecture
 
+![Pipeline Architecture](Architecture_diagram.png)
 ## Results
 
 ### Task 1 — Sentiment Classification
