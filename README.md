@@ -12,6 +12,7 @@ FinSight NLP is an end-to-end natural language processing pipeline that automati
 The pipeline chains two pretrained transformer models — T5-small for abstractive summarization and FinBERT for domain-specific sentiment classification — and exposes the full system through an interactive Streamlit web application.
 
 ---
+> This is a forked repository. Original work by Team 20 (Satyam Kale, Adwait Gaur, Mayur Sangle). Additional contributions and enhancements by Adwait Gaur.
 
 ## Architecture
 
@@ -228,6 +229,15 @@ Fine-tuning on 98 samples would risk overfitting. Pretrained transformers are de
 - Financial PhraseBank sentences are short (1-2 sentences); performance on longer articles may vary
 
 ---
+## My Contribution — Adwait Gaur
+
+- Designed and implemented the end-to-end NLP pipeline integrating summarization and sentiment classification modules
+- Built data preprocessing workflow for cleaning and structuring financial text inputs
+- Integrated T5-small model for abstractive summarization of financial articles
+- Implemented FinBERT-based sentiment classification pipeline for domain-specific predictions
+- Evaluated model performance using ROUGE metrics and classification metrics (Accuracy, F1-score)
+- Developed interactive Streamlit dashboard enabling real-time analysis of financial news articles
+- Optimized pipeline flow for efficient inference and user interaction
 
 ## Future Work
 
@@ -251,7 +261,7 @@ This project was developed as the final project for DATA 641 (Natural Language P
 | Name          | Role                                              |
 |---------------|---------------------------------------------------|
 | Satyam Kale   | Problem definition, sentiment results, transfer learning analysis |
-| Adwait Gaur   | Dataset preparation, summarization results, challenges |
+| Adwait Gaur   | Designed and implemented end-to-end NLP pipeline, integrated T5 summarization and FinBERT sentiment classification, developed preprocessing workflow, and built interactive Streamlit dashboard for real-time financial text analysis |
 | Mayur Sangle  | Model architecture, pipeline, conclusion          |
 
 ---
